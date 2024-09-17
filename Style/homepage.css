@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoimg{
+    width: 100px;
+}
+.firstli{
+    list-style: none;
+    color: #40196D;
+    position: relative;
+}
+h1{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: #979797;
+}
+.subp{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #40196d;
+}
+.hoverfirstli{
+    border: 2px solid;
+    box-shadow: none;
+    display: none;
+    border-color: whitesmoke;
+    position: absolute;
+}
+.firstli:hover .hoverfirstli{
+    display: block;
+}
+.secondli{
+    list-style: none;
+    color: #40196D;
+    position: relative;
+}
+.hoversecondli{
+    border: 2px solid;
+    box-shadow: none;
+    display: none;
+    border-color: whitesmoke;
+    position: absolute;
+}
+.secondli:hover .hoversecondli{
+    display: block;
+}
+.thirdli{
+    list-style: none;
+    color: #40196D;
+    position: relative;
+}
+.hoverthirdli{
+    border: 2px solid;
+    box-shadow: none;
+    display: none;
+    border-color: whitesmoke;
+    position: absolute;
+}
+.thirdli:hover .hoverthirdli{
+    display: block;
+}
+.fourthli{
+    list-style: none;
+    color: #40196D;
+    position: relative;
+}
+.hoverfourthli{
+    border: 2px solid;
+    box-shadow: none;
+    display: none;
+    border-color: whitesmoke;
+    position: absolute;
+}
+.fourthli:hover .hoverfourthli{
+    display: block;
+}
+.btn-1{
+    width: 100px;
+    background-color: #40196d;
+    color: #ffffff;
+    height: 40px;
+}
+.themoney{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+    color: #40196d;
+}
+.makefree{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.downloadapple{
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 16px;
+    color: #979797;
+}
+span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #979797;
+}
+.applebtn{
+    background-color: #000000;
+    color: white;
+    width: 120px;
+    height: 70px;
+}
+.playbtn{
+    background-color: #000000;
+    color: white;
+    width: 120px;
+    height: 70px;
+}
+nav{
+    margin-left: 10vw;
+}
+.secondheader{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+.thirdheader{
+    border: 2px solid;
+    box-shadow: none;
+    border-color: whitesmoke;
+    width: 350px;
+    padding: 2vw;
+}
+.order{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 23px;
+    color: #40196d;
+}
+.son{
+    display: flex;
+    gap: 2vw;
+}
+.bola{
+    display: flex;
+    margin-left: 15vw;
+    gap: 2vw;
+    margin-top: 1vw;
+}
+.yourphone{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+    color: #40196d;
+}
+.fourthheader{
+    margin-top: 10vw;
+}
+.wedesignated{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.fifthheader{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+.seventhheader{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+.web{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+.ninethheader{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+.samson{
+    border: 2px solid;
+    padding: 1rem;
+    border-color: whitesmoke;
+    /* padding: 1rem 0rem 0rem 1rem; */
+}
+@media screen and (max-width:980px) {
+    .fola{
+        display: none;
+    }
+    .secondheader{
+        flex-direction: column;
+    }
+    .bola{
+        flex-direction: column;
+        margin: 0vw;
+    }
+    .son{
+        flex-direction: column;
+        margin: 0vw;
+    }
+    .themoney{
+        font-size: 40px;
+    }
+    .web{
+        flex-direction: column;
+    }
+    .fifthheader{
+        flex-direction: column;
+    }
+    .seventhheader{
+        flex-direction: column;
+    }
+    .eightheader{
+        flex-direction: column;
+    }
+    .ninethheader{
+        flex-direction: column;
+    }
+    .marquee{
+        flex-direction: column;
+    }
+}
