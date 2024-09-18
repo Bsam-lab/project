@@ -108,25 +108,29 @@ span{
     line-height: 16px;
     color: #979797;
 }
-.applebtn{
-    background-color: #000000;
+button{
     color: white;
-    width: 120px;
-    height: 70px;
+    background-color: black;
+    border-radius: 5px;
 }
-.playbtn{
-    background-color: #000000;
-    color: white;
-    width: 120px;
-    height: 70px;
+.apple{
+    display: flex;
+}
+.appleword{
+   
+}
+.play{
+    display: flex;
 }
 nav{
     margin-left: 10vw;
+    margin-right: 10vw;
 }
 .secondheader{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20rem;
+    gap: 4rem;
 }
 .thirdheader{
     border: 2px solid;
@@ -169,28 +173,58 @@ nav{
 .fifthheader{
     display: flex;
     align-items: center;
-    gap: 20rem;
+    gap: 4rem;
 }
 .seventhheader{
     display: flex;
     align-items: center;
-    gap: 20rem;
+    gap: 4rem;
 }
 .web{
     display: flex;
     align-items: center;
-    gap: 20rem;
+    gap: 4rem;
 }
 .ninethheader{
     display: flex;
     align-items: center;
-    gap: 20rem;
+    gap: 4rem;
 }
 .samson{
     border: 2px solid;
     padding: 1rem;
     border-color: whitesmoke;
     /* padding: 1rem 0rem 0rem 1rem; */
+}
+.correct1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+.correct2{
+    box-shadow: #ffffff;
+}
+.flutter1div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flutterp{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #40196d;
+    position: relative;
+    list-style: none;
+}
+.flutterpu{
+    position: absolute;
+    list-style: none;
+    padding-right: 10rem;
+}
+.flutterbutton{
+    margin-top: 10rem;
 }
 @media screen and (max-width:980px) {
     .fola{
@@ -227,5 +261,11 @@ nav{
     }
     .marquee{
         flex-direction: column;
+    }
+    .flutter1div{
+        flex-direction: column;
+    }
+    .flutterpu{
+        display: none;
     }
 }
