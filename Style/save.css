@@ -153,7 +153,22 @@
     color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 30px;  
-}.firstheader{
+}
+.sub-btnkuda{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #40196d;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+}
+.firstheader{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,77 +181,29 @@
     object-fit: contain;
     margin-top: 10rem;
     margin-right: 10rem;
-    position: relative;
 }
-button{
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    margin-top: 2rem;
-}
-.apple{
-    display: flex;
-}
-.play{
-    display: flex;
-}
-.order-div{
-    border: 2px solid;
-    width: 400px;
-    background: white;
-    border: none;
-    margin-top: 1rem;
-}
-.img-order{
-    padding: 1rem 4rem 0rem 2rem;
-}
-.p-order{
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 23px;
-    color: #40196d;
-    padding: 0.5rem 5rem 0.5rem 2rem;
-}
-.enjoy-div{
-    border: 2px solid;
-    width: 400px;
-    background: white;
-    border: none;
-    margin-top: 1rem;
-}
-.img-enjoy{
-    padding: 1rem 4rem 0rem 2rem;
-}
-.p-enjoy{
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 23px;
-    color: #40196d;
-    padding: 0.5rem 5rem 0.5rem 2rem;
-}
-.pay-div{
-    border: 2px solid;
-    width: 400px;
-    background: white;
-    border: none;
-    margin-top: 1rem;
-}
-.img-pay{
-    padding: 1rem 4rem 0rem 2rem;
-}
-.p-pay{
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 23px;
-    color: #40196d;
-    padding: 0.5rem 5rem 0.5rem 2rem;
-}
-.headpaydiv{
+.secondheader{
     display: flex;
     gap: 2rem;
-    margin-top: 8rem;
 }
-.get-div{
+.withdraw{
+    border: 2px solid;
+    width: 400px;
+    background: white;
+    border: none;
+    margin-top: 1rem;
+}
+.img-withdraw{
+    padding: 1rem 4rem 0rem 2rem;
+}
+.p-withdraw{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 23px;
+    color: #40196d;
+    padding: 0.5rem 5rem 0.5rem 2rem;
+}
+.get{
     border: 2px solid;
     width: 400px;
     background: white;
@@ -253,85 +220,33 @@ button{
     color: #40196d;
     padding: 0.5rem 5rem 0.5rem 2rem;
 }
-.save-div{
+.send{
     border: 2px solid;
     width: 400px;
     background: white;
     border: none;
-    margin-top: 1rem;
+    margin-top: 1rem; 
 }
-.img-save{
+.img-send{
     padding: 1rem 4rem 0rem 2rem;
 }
-.p-save{
+.p-send{
     font-weight: 900;
     font-size: 16px;
     line-height: 23px;
     color: #40196d;
     padding: 0.5rem 5rem 0.5rem 2rem;
 }
-.headsavediv{
-    display: flex;
-    gap: 2rem;
-    margin: 2rem 0rem 0rem 10rem;
-}
-.secondheader{
-    display: flex;
-}
-.img-woman{
-    width: 500px;
-    height: 500px;
-    object-fit: contain;
-    margin: 10rem 8rem 0rem 4rem;
-}
-.yourphone{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 55px;
-    color: #40196d;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 16rem 16rem 0rem 8rem;
-}
-.sub-yourphone{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 4rem 1rem 8rem;
-}
-.a-2{
-    margin: 0rem 1rem 0rem 8rem;
-}
 .thirdheader{
     display: flex;
 }
-.p-yourmoney{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 55px;
-    color: #40196d;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 16rem 10rem 0rem 0.3rem;
-}
-.sub-yourmoney{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 8rem 1rem 0.3rem;
-}
-.img-trans{
+.img-sendmoney{
     width: 500px;
     height: 500px;
     object-fit: contain;
-    margin: 10rem 8rem 0rem 4rem;
+    margin-top: 8rem;
 }
-.fourthheader{
-    display: flex;
-}
-.saveandspend{
+.sendego{
     font-weight: 900;
     font-size: 48px;
     line-height: 55px;
@@ -339,128 +254,63 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 16rem 10rem 0rem 8rem;
 }
-.sub-saveandspend{
+.sub-sendego{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 4rem 1rem 8rem;
+    margin: 0rem 10rem 0rem 8rem;
 }
-.img-saveandspend{
+.fourthheader{
+    display: flex;
+}
+.debitcard{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+    color: #40196d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 16rem 8rem 0rem 0rem;
+}
+.sub-debitcard{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
+}
+.img-debitcard{
     width: 500px;
     height: 500px;
     object-fit: contain;
-    margin: 10rem 8rem 0rem 4rem;
+    margin: 8rem 10rem 0rem 10rem;
 }
 .fifthheader{
     display: flex;
+    gap: 4rem;
 }
-.img-blockcard{
+.img-needto{
     width: 500px;
     height: 500px;
     object-fit: contain;
-    margin: 10rem 8rem 0rem 4rem;
 }
-.p-blockcard{
+.needto{
     font-weight: 900;
     font-size: 48px;
     line-height: 55px;
     color: #40196d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 18rem 10rem 0rem 0.3rem;
+    margin: 8rem 8rem 0rem 0rem;
 }
-.sub-blockcard{
+.sub-needto{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 8rem 1rem 0.3rem;
-}
-.a-5{
-    margin-left: 10px;
-}
-.sixthheader{
-    display: flex;
-}
-.happy{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 55px;
-    color: #40196d;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 16rem 1rem 0rem 8rem;
-}
-.sub-happy{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 4rem 1rem 8rem;
-}
-.img-happy{
-    width: 500px;
-    height: 500px;
-    object-fit: contain;
-    margin: 10rem 8rem 0rem 4rem;
-}
-.seventhheader{
-    display: flex;
-}
-.img-naira{
-    width: 500px;
-    height: 500px;
-    object-fit: contain;
-    margin: 10rem 8rem 0rem 4rem;
-}
-.p-fee{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 55px;
-    color: #40196d;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 18rem 10rem 0rem 0.3rem;
-}
-.sub-fee{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1rem 8rem 1rem 0.3rem;
-}
-.marque{
-    border: 2px solid;
-    width: 300px;
-    border-color: royalblue;
-    padding: 1rem;
-}
-.img-marque1{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    padding-top: 2rem;
-    object-fit: contain;
-    position: relative;
-}
-.allmarque{
-    display: flex;
-    background: whitesmoke;
-    margin-top: 2rem;
-    gap: 1rem; 
-}
-.bbc-img{
-    width: 100px;
-
-}
-.allimg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    margin: 5rem 5rem 0rem 5rem;
+    margin: 2rem 8rem 0rem 0rem;
 }
 .eightheader{
     display: flex;
@@ -473,54 +323,31 @@ button{
     color: #40196d;
     margin: 4rem 0rem 0rem 30rem;
 }
-.business{
+.airtime{
     border: 2px solid;
     width: 400px;
     background: white;
     margin-top: 1rem;
     border: none;
 }
-.img-business{
+.img-airtime{
     padding: 2rem 4rem 0rem 2rem;
 }
-.p-business{
+.p-airtime{
     font-weight: 900;
     font-size: 24px;
     line-height: 30px;
     color: #40196d;
     padding: 0.5rem 4rem 0rem 2rem;
 }
-.p-biz{
+.p-airt{
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
-    padding: 0.5rem 4rem 2rem 2rem;
+    padding: 0.5rem 4rem 0rem 2rem;
 }
 .air-anchor{
-    padding: 0.5rem 0rem 0.5rem 2rem;
-}
-.transfer{
-    border: 2px solid;
-    width: 400px;
-    background: white;
-    margin-top: 1rem;
-    border: none;
-}
-.img-transfer{
-    padding: 2rem 4rem 0rem 2rem;
-}
-.p-transfer{
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 30px;
-    color: #40196d;
-    padding: 0.5rem 4rem 0rem 2rem;
-}
-.p-trans{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    padding: 0.5rem 4rem 3rem 2rem;
+    padding: 0.5rem 4rem 0.5rem 2rem;
 }
 .loan{
     border: 2px solid;
@@ -538,11 +365,35 @@ button{
     line-height: 30px;
     color: #40196d;
     padding: 0.5rem 4rem 0rem 2rem;
-}.p-loans{
+}
+.p-loans{
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
-    padding: 0.5rem 4rem 3.1rem 2rem;
+    padding: 0.5rem 4rem 0rem 2rem;
+}
+.save{
+    border: 2px solid;
+    width: 400px;
+    background: white;
+    margin-top: 1rem;
+    border: none;
+}
+.img-save{
+    padding: 2rem 4rem 0rem 2rem;
+}
+.p-save{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #40196d;
+    padding: 0.5rem 4rem 0rem 2rem;
+}
+.p-saves{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 0.5rem 4rem 0rem 2rem;
 }
 .newdevelopment{
     border: 2px solid;
@@ -638,16 +489,10 @@ button{
     margin: 2rem 28rem 0rem 10rem;
 }
 @media screen and (max-width:980px) {
-    .headp1 {
+    .headp1{
         display: none;
     }
     .firstheader{
-        flex-direction: column;
-    }
-    .headpaydiv{
-        flex-direction: column;
-    }
-    .headsavediv{
         flex-direction: column;
     }
     .secondheader{
@@ -668,16 +513,7 @@ button{
     .seventhheader{
         flex-direction: column;
     }
-    .allmarque{
-        flex-direction: column;
-    }
-    .allimg{
-        flex-direction: column;
-    }
     .eightheader{
-        flex-direction: column;
-    }
-    .newdevelopment{
         flex-direction: column;
     }
 }
