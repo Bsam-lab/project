@@ -70,6 +70,7 @@
 .lihover:hover .divsubfirstheader{
     display: block;
     list-style: none;
+    background-color: white;
 }
 .secondheader{
     background: #EFF1FF;

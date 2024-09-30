@@ -23,6 +23,7 @@
     background: white;
     top: 0;
     position: fixed;
+    z-index: 999;
     width: 100%;
 }
 .header1{
@@ -64,6 +65,7 @@
 }
 .hoverfirstli{
     position: absolute;
+    background-color: white;
 }
 .subp1{
     font-weight: 600;
@@ -96,6 +98,7 @@
 }
 .hoversecondli{
     position: absolute;
+    background-color: white;
 }
 .samson{
     display: flex;
@@ -109,6 +112,7 @@
 }
 .hoverthirdli{
     position: absolute;
+    background-color: white;
 }
 .bola{
     display: flex;
@@ -122,12 +126,13 @@
 }
 .hoverfourthli{
     position: absolute;
+    background-color: white;
 }
 .bolasam{
     display: flex;
     border: 2px solid;
     box-shadow: none;
-    border-color: whitesmoke;
+    background-color: whitesmoke;
     display: none;
 }
 .p1:hover .bolasam{
@@ -592,6 +597,7 @@ button{
 }
 .footer{
     margin-left: 10rem;
+
 }
 .subfooter{
     margin-top: 8rem;
